@@ -10,7 +10,7 @@ const Footer = () => (
         href={ process.env.PHENOMIC_HOMEPAGE }
         className={ styles.phenomicReference }
       >
-        { "Website generated with (MIKE!) " }
+        { "Website generated with (MIKE) " }
         <span className={ styles.phenomicReferenceName }>
           {  `<${ process.env.PHENOMIC_NAME} />` }
         </span>

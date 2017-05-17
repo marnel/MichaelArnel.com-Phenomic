@@ -27,6 +27,8 @@ const DefaultHeadMeta = (props, { metadata: { pkg } }) => (
       } ] }
     />
     <style>{ "@-ms-viewport { width: device-width; }" }</style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css" />
+    <link href="http://fonts.googleapis.com/css?family=Arizonia:400" rel="stylesheet" type="text/css" />
   </div>
 )
 

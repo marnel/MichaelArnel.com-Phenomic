@@ -11,7 +11,7 @@
   color: var(--colorNeutralLight);
 }
 
-.nav {
+/*.nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -52,4 +52,23 @@
   width: 14px;
   height: 14px;
   vertical-align: middle;
+} */
+
+.animatedHeader {
+  padding: 20px 0;
+  background-color: #ffffff !important;
+  border-color: transparent !important; 
+  box-shadow: none;
+}
+
+.brandLogo {
+  color: #02bdd5 !important;
+  font-family: 'Arizonia';
+  font-size: 47px !important;
+}
+
+.headerMenu li>a {
+  color: black !important;
+  font-weight: 500;
+  text-transform: uppercase;
 }
