@@ -1,6 +1,4 @@
-.footer {
-  text-align: center;
-}
+
 
 .phenomicReference {
   font-size: 0.75rem;
@@ -12,3 +10,22 @@
 .phenomicReferenceName {
   font-weight: 100;
 }
+
+.footer {
+  background: #fff;
+  padding: 25px 0;
+  color: #555;
+  
+}
+.copyright {
+  font-size: 13px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 22px;
+  font-weight: 300;
+}
+#footer .copyright a {
+  color: #02bdd5;
+}
+

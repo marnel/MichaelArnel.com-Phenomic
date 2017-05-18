@@ -57,7 +57,10 @@
 .animatedHeader {
   padding: 20px 0;
   background-color: #ffffff !important;
-  border-color: transparent !important; 
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #dedede;
+  margin-bottom: 0px !important;
   box-shadow: none;
 }
 
