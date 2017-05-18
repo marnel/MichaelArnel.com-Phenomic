@@ -159,6 +159,10 @@ export default (config = {}) => {
           loader: "raw-loader",
 
         },
+        {
+          test: require.resolve('wowjs/dist/wow.js'), 
+          loader: 'exports?this.WOW'
+        }     
         
       ],
     },

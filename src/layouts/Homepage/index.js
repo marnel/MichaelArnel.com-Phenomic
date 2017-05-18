@@ -1,13 +1,15 @@
 import React from "react"
 
 import LatestPosts from "../../components/LatestPosts"
-import Page from "../Page"
+import IndexPage from "../IndexPage"
+import ContactSection from "../../components/ContactSection"
 
 const Homepage = (props) => {
   return (
-    <Page { ...props }>
-      <LatestPosts />
-    </Page>
+    <IndexPage { ...props }>
+     <LatestPosts />
+     <ContactSection />
+    </IndexPage>
   )
 }
 

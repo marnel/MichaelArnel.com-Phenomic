@@ -10,7 +10,7 @@ import styles from "./index.css"
 
 const Header = (props, { metadata: { pkg } }) => (
  
-  <Navbar collapseOnSelect className={ styles.animatedHeader}>
+  <Navbar collapseOnSelect fixedTop className={ styles.animatedHeader}>
     <Navbar.Header>
       <Navbar.Brand className={ styles.brandLogo } >
         <a href="#">Michael Arnel</a>
