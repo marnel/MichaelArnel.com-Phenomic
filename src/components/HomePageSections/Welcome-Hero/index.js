@@ -3,18 +3,40 @@ import ReactDOM from "react-dom"
 
 
 //import styles from "./index.css"
-let x = 0
+let x = 1
 let n1 = null
 let n2 = null
 let n3 = null
+let timeoutId = null;
+
 function RotateText(){
-    setTimeout(function() {
-       x == 0 ? n1.className = "is-visible" : n1.className = ""
-       x == 1 ? n2.className = "is-visible" : n2.className = ""
-       x == 2 ? n3.className = "is-visible" : n3.className = ""
-       x == 2 ? x = 0 : x++
-       RotateText()
-    }, 3000)
+    timeoutId = setTimeout(function() {
+       
+       console.log("rotate")
+       if (x > 2) { x = 0 }
+       if (x == 0) { 
+           n1.className = "is-visible"
+           n2.className = ""
+           n3.className = ""
+       }
+       else if (x==1){
+           n1.className = ""
+           n2.className = "is-visible"
+           n3.className = ""
+       }
+       else if (x==2){
+           n1.className = ""
+           n2.className = ""
+           n3.className = "is-visible"
+       }
+       //x == 0 ? n1.className = "is-visible" : n1.className = ""
+       //x == 1 ? n2.className = "is-visible" : n2.className = ""
+       //x == 2 ? n3.className = "is-visible" : n3.className = ""
+       x++
+       clearTimeout(timeoutId)
+       RotateText();
+    }, 5000)
+    
 }
 
 const WelcomeHero = () => (
