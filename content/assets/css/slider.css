@@ -9,6 +9,7 @@ Primary style
   display: inline-block;
   position: relative;
   text-align: left;
+	
 }
 .cd-words-wrapper b {
   display: inline-block;
@@ -26,7 +27,13 @@ Primary style
 .no-js .cd-words-wrapper b.is-visible {
   opacity: 1;
 }
-
+@keyframes rotateWordsFirst {
+    0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
+    8% { opacity: 1; height: 60px; }
+    19% { opacity: 1; height: 60px; }
+	25% { opacity: 0; height: 60px; }
+    100% { opacity: 0; }
+}
 
 xslide 
 

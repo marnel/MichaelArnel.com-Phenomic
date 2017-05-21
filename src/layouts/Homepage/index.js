@@ -2,7 +2,7 @@ import React from "react"
 
 import LatestPosts from "../../components/LatestPosts"
 import IndexPage from "../IndexPage"
-import ContactSection from "../../components/ContactSection"
+import ContactSection from "../../components/HomePageSections/ContactSection"
 import WelcomeHero from "../../components/HomePageSections/Welcome-Hero"
 
 const Homepage = (props) => {
