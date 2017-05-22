@@ -54,6 +54,15 @@
   vertical-align: middle;
 } */
 
+.link {
+  color: #444;
+
+  &:hover {
+    color: #02bdd5;
+    text-decoration: none;
+  }
+}
+
 .animatedHeader {
   padding: 20px 0;
   background-color: #ffffff !important;

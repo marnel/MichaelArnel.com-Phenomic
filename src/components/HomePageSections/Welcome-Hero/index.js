@@ -11,31 +11,14 @@ let timeoutId = null;
 
 function RotateText(){
     timeoutId = setTimeout(function() {
-       
-       console.log("rotate")
        if (x > 2) { x = 0 }
-       if (x == 0) { 
-           n1.className = "is-visible"
-           n2.className = ""
-           n3.className = ""
-       }
-       else if (x==1){
-           n1.className = ""
-           n2.className = "is-visible"
-           n3.className = ""
-       }
-       else if (x==2){
-           n1.className = ""
-           n2.className = ""
-           n3.className = "is-visible"
-       }
-       //x == 0 ? n1.className = "is-visible" : n1.className = ""
-       //x == 1 ? n2.className = "is-visible" : n2.className = ""
-       //x == 2 ? n3.className = "is-visible" : n3.className = ""
+       x == 0 ? n1.className = "is-visible" : n1.className = ""
+       x == 1 ? n2.className = "is-visible" : n2.className = ""
+       x == 2 ? n3.className = "is-visible" : n3.className = ""
        x++
        clearTimeout(timeoutId)
        RotateText();
-    }, 5000)
+    }, 4000)
     
 }
 
@@ -61,9 +44,9 @@ const WelcomeHero = () => (
                         </section> 
                         
                         <h2 className="wow fadeInUp animated" data-wow-delay=".6s" >
-                            With 10 years experience, I've occupied many roles including digital design director,<br /> web designer and developer. This site showcases some of my work.
+                            With 12 years experience, I've occupied many roles such as director of development,<br /> web designer and developer. This site showcases some of my work.
                         </h2>
-                        <a className="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green" data-wow-delay=".9s" href="#works" data-section="#works" >View Works</a>       
+                        <a className="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green" data-wow-delay=".9s" href="#works" data-section="#works" >View Resume</a>       
                     </div>
                 </div>
             </div>

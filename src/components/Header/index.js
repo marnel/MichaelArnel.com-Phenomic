@@ -18,10 +18,9 @@ const Header = (props, { metadata: { pkg } }) => (
       <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
-      <Nav pullRight className={styles.headerMenu }>
-        
-        <NavItem eventKey={1} href="#"><Link to={'/'}>Home</Link></NavItem>
-        <NavItem eventKey={2} href="#"><Link to={'/about'}>About</Link></NavItem>
+      <Nav pullRight className={styles.headerMenu }>        
+        <NavItem eventKey={1} href="#"><Link to={'/'} className={styles.link}>Home</Link></NavItem>
+        <NavItem eventKey={2} href="#"><Link to={'/about'} className={styles.link}>About</Link></NavItem>
         <NavDropdown eventKey={3} title="Blog" id="basic-nav-dropdown">
           <MenuItem eventKey={3.1}>Action</MenuItem>
           <MenuItem eventKey={3.2}>Another action</MenuItem>

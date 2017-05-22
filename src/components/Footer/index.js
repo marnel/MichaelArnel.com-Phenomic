@@ -12,7 +12,7 @@ const Footer = () => (
           <Col xs={6} md={4}>
             <ul className="social">
                 <li>
-                    <a href="http://wwww.fb.com/" className="fa fa-facebook">
+                    <a href="https://www.facebook.com/michael.arnel" className="fa fa-facebook">
                         <i className="ion-social-facebook"></i>
                     </a>
                 </li>
@@ -22,12 +22,12 @@ const Footer = () => (
                     </a>
                 </li>
                 <li>
-                    <a href="#" className="fa fa-linkedin">
+                    <a href="https://www.linkedin.com/in/michael-arnel-8120b95a/" className="fa fa-linkedin">
                         <i className="ion-social-linkedin"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="http://wwww.fb.com" className="fa fa-google-plus">
+                    <a href="https://plus.google.com/+MichaelArnel" className="fa fa-google-plus">
                         <i className="ion-social-googleplus"></i>
                     </a>
                 </li>
